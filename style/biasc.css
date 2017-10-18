@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin:0;
+	color:#000;
+	font-size:12px;
+	}
+	
+#body{
+	margin:0 auto;
+	width:960px;
+	height:650px;
+	position:relative;/*相对定位点*/
+	background:#fff;
+	}
+
+#body a {
+	color:#36C;
+	text-decoration:none;
+	}
+#body a:hover {
+	color:#4c4c4c;
+	text-decoration:underline;
+	}
+	
+#footer{
+	text-align:center;
+	width:1160px;
+	height:30px;
+	color:#000;
+	line-height:30px;
+	letter-spacing:2px;/*字体间距*/
+	margin:0 auto;
+	background:#fff url(../images/footer.png) no-repeat top center;
+	}
+	
+#footer a {
+	color:#000;
+	text-decoration:none;
+	}
+#footer a:hover {
+	color:#4c4c4c;
+	text-decoration:underline;
+	}
